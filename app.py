@@ -13,7 +13,7 @@ profile_pic = current_dir / "assets" / "Profilepicture.png"
 PAGE_TITLE = "DIGITAL Resume | Jonathan Taylor"
 PAGE_ICON = ":wave:"
 NAME = "Jonathan Taylor"
-DESCRIPTION = "Just a Kid Looking For A Job."
+DESCRIPTION = "Just Looking For A Job."
 EMAIL = "JTayl190@Emich.edu"
 LINKS = {
     "LinkedIn": "https://www.linkedin.com/in/jopataylor/",
