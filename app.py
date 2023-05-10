@@ -2,6 +2,8 @@ from pathlib import Path
 import streamlit as st
 from PIL import Image
 
+# https://www.namecheap.com/support/knowledgebase/article.aspx/9737/2208/pointing-a-domain-to-the-heroku-app/
+
 # Path Settings
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
