@@ -2,6 +2,10 @@
 
 * {font-family: 'Readex Pro';}
 
+body {
+	background-color: #2A3042;
+}
+
 a {
     text-decoration: none;
     color: white !important;
