@@ -50,14 +50,14 @@ with col2:
 
 
 # Social Links
-st.write("#")
+st.write("\n")
 cols = st.columns(len(LINKS))
 for index, (platform, link) in enumerate(LINKS.items()):
     cols[index].write(f"[{platform}]({link})")
 
 
 # Experience / Qualifications
-st.write("#")
+st.write("\n")
 st.subheader("Experience & Qualifications")
 st.write(
     """
@@ -71,7 +71,7 @@ st.write(
 )
 
 # Skills
-st.write("#")
+st.write("\n")
 st.subheader("Skills")
 st.write(
     """
@@ -85,7 +85,7 @@ st.write(
 )
 
 # Work History
-st.write("#")
+st.write("\n")
 st.subheader("Work History")
 st.write("---")
 
@@ -110,7 +110,7 @@ st.write(
 )
 
 # Projects / Accomplisments
-st.write("#")
+st.write("\n")
 st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
