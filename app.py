@@ -81,35 +81,10 @@ st.markdown(
         
         - **General**:&nbsp;&nbsp;&nbsp;&nbsp; Version Control, Agile / Scrum, Microsoft & Google Suites
 
-        - **Course-Work**:&nbsp;&nbsp;&nbsp;&nbsp; Discrete Mathematics, Software Engineering Solutions  
+        - **Course-Work**:&nbsp;&nbsp;&nbsp;&nbsp; Discrete Mathematics, Software Engineering Solutions,  
                                                     Data Structures and Algorithms,  Big Data 1 & 2
         """,
     unsafe_allow_html=True
-)
-
-# Work History
-st.write("\n")
-st.subheader("Work History")
-st.write("---")
-
-# Job 1
-st.write("**Job Title | Company Name**")
-st.write("Start Date - End Date")
-st.write(
-    """
-        - Responsibility 1 with Description
-        - Responsibility 2 with Description
-        """
-)
-
-# Job 2
-st.write("**Job Title | Company Name**")
-st.write("Start Date - End Date")
-st.write(
-    """
-        - Responsibility 1 with Description
-        - Responsibility 2 with Description
-        """
 )
 
 # Projects / Accomplisments
@@ -118,3 +93,47 @@ st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}({link})]")
+
+# Work History
+st.write("\n")
+st.subheader("Work History")
+st.write("---")
+
+# Job 1
+st.write("**Manager | Conor O'Neills**")
+st.write("April 2012 - Current")
+st.markdown(
+    """
+        - Manage schedule for over 50 front of house positions, including full and part time staff
+        
+        - Ensure staff are attentive to customers’ needs and wants while managing the floor
+        
+        - Manage customer experience, including difficult clientele, to make the customer experience successful
+        
+        - Responsible for weekly drink inventory, work closely with regional drink representatives
+        
+        - Ensure correct food storage, handling, and preparation after being trained in food safety
+        
+    """,
+    unsafe_allow_html=True
+)
+
+st.write("\n")
+st.write("\n")
+
+# Job 2
+st.write("**Manager | Northside Grill**")
+st.write("August 2017 - May 2023")
+st.write(
+    """
+        - Ensured orders were correct and the customer experience was exemplary 
+        
+        - Balanced books/transactions at end of service day
+        
+        - Opened and closed restaurant for the day
+        
+        - Developed and maintained close relationships with kitchen staff
+        
+    """
+)
+
