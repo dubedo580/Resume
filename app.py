@@ -10,7 +10,6 @@ css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "The_Resume.pdf"
 profile_pic = current_dir / "assets" / "Profilepicture.png"
 
-
 # General Settings
 PAGE_TITLE = "DIGITAL Resume | Jonathan Taylor"
 PAGE_ICON = ":wave:"
@@ -26,7 +25,6 @@ PROJECTS = {
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
-
 
 # Load CSS, PDF, Profile Pic
 with open(css_file) as f:
@@ -50,27 +48,11 @@ with col2:
     )
     st.write(EMAIL)
 
-
 # Social Links
 st.write("\n")
 cols = st.columns(len(LINKS))
 for index, (platform, link) in enumerate(LINKS.items()):
     cols[index].write(f"[{platform}]({link})")
-
-
-# Experience / Qualifications
-st.write("\n")
-st.subheader("Experience & Qualifications")
-st.write(
-    """
-        - Thing 1
-        - Thing 2
-        - Thing 3
-        - Trait 1
-        - Trait 2
-        - Trait 3        
-        """
-)
 
 # Skills
 st.write("\n")
@@ -84,6 +66,25 @@ st.write(
         - Detail oriented
         - Excel at collaborative relationships
         """
+)
+
+# Experience / Qualifications
+st.write("\n")
+st.subheader("Experience & Qualifications")
+st.markdown(
+    """
+        - **Languages:**&nbsp;&nbsp;&nbsp;&nbsp;Java, Python, Kotlin, PHP, HTML
+         
+        - **Development**:&nbsp;&nbsp;&nbsp;&nbsp; IntelliJ, Eclipse, Android Studio, Visual Studio Code, Cloud9
+        
+        - **Database**:&nbsp;&nbsp;&nbsp;&nbsp; MySQL, Firebase, Dynamo, Cassandra
+        
+        - **General**:&nbsp;&nbsp;&nbsp;&nbsp; Version Control, Agile / Scrum, Microsoft & Google Suites
+
+        - **Course-Work**:&nbsp;&nbsp;&nbsp;&nbsp; Discrete Mathematics, Software Engineering Solutions  
+                                                    Data Structures and Algorithms,  Big Data 1 & 2
+        """,
+    unsafe_allow_html=True
 )
 
 # Work History
